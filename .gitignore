@@ -1,2 +1,5 @@
 *.vtk
 *pro
+PosProInt/*.vtk
+PosProInt/*.pro
+.vscode
