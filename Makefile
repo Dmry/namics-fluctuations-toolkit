@@ -1,0 +1,2 @@
+all:
+	g++ -Wall -g -O3 -std=c++14 -o expander expander.cpp file_writer.cpp file_reader.cpp lattice_accessor.cpp -Wl,-Bstatic -L/usr/include/boost -lboost_system  -lboost_filesystem -lboost_program_options -Wl,-Bdynamic
